@@ -85,10 +85,6 @@ function initConsole() {
 	}
 }
 
-function initAll() {
-	initMatrix(ASCII_BEGIN, ASCII_END, TEXT_LENGTH, CHARS_PER_ROW, REFRESH_FREQUENCY);
-	initConsole();
-}
 
-$(document).ready(initAll);
+$(document).ready(initConsole);
 
