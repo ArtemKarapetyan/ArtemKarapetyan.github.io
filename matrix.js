@@ -49,11 +49,10 @@ function initConsole() {
 	}
 	function processInput(input) {
 		commands = {
-			'help': 'Welcome to the console.  Available commands: <br>&nbsp;<span class="blue">about</span>: open my about page <br>&nbsp;<span class="blue">bio</span>: give short bio of Gordon <br>&nbsp;<span class="blue">help</span>: commands <br>&nbsp;<span class="blue">contact</span>: get contact info<br>&nbsp;<span class="blue">blog</span>: go to my blog',
-			'contact': '<span class="blue">&nbsp;Twitter: <a href="http://www.twitter.com/capable_monkey">@capable_monkey</a></span> <br><span class="red">&nbsp;Email: &nbsp;&nbsp;<a href="mailto:technix1@gmail.com">technix1@gmail.com</a></span> <br>',
+			'help': 'Welcome to the console.  Available commands: <br>&nbsp;<span class="blue">about</span>: open my about page <br>&nbsp;<span class="blue">bio</span>: give short bio of Gordon <br>&nbsp;<span class="blue">help</span>: commands <br>&nbsp;<span class="blue">contact</span>: get contact info<br>&nbsp;<span class="blue">',
+			'contact': '<span class="blue">&nbsp;Twitter: <a href="https://twitter.com/metrak1bear">@metrak1bear</a></span> <br><span class="red">&nbsp;Email: &nbsp;&nbsp;<a href="artem.karaptyan95@gmail.com">metrak1bear@aol.com</a></span> <br>',
 			'bio': 'About Gordon:<br><br>I like lists, so I\'ll describe myself with a list.  I\'m an avid explorer of restaurants, a lifelong engineer, a shameless comedian, an occasional writer, a chess player, a fanatic of science and technology, and a thinker. I like calling myself a "thinker" because it sounds really pompous, which is the exact effect I\'m trying to achieve.  Perhaps most important, I\'m a Developer Evangelist at Dwolla. I love working there.',
-			'blog': openLink('http://www.sintacks.com/', 'Opening blog in new tab/window...'),
-			'about': openLink('http://about.me/gordonzheng', 'Opening about page in new tab/window...'),
+			'about': openLink('http://about.me/artemkarapetyan/', 'Opening about page in new tab/window...'),
 		}
 
 		if (input in commands) {
