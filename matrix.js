@@ -50,7 +50,7 @@ function initConsole() {
 	function processInput(input) {
 		commands = {
 			'help': 'Welcome to the console.  Available commands: <br>&nbsp;<span class="blue">about</span>: open my about page <br>&nbsp;<span class="blue">bio</span>: give short bio of Gordon <br>&nbsp;<span class="blue">help</span>: commands <br>&nbsp;<span class="blue">contact</span>: get contact info<br>&nbsp;<span class="blue">',
-			'contact': '<span class="blue">&nbsp;Twitter: <a href="https://twitter.com/metrak1bear">@metrak1bear</a></span> <br><span class="red">&nbsp;Email: &nbsp;&nbsp;<a href="artem.karaptyan95@gmail.com">artem.karapetyan95@aol.com</a></span> <br><span class="orange">&nbsp; Resume: <a href="Artem_Karapetyan_RESUME.pdf">Resume</a></span> <br>',
+			'contact': '<span class="blue">&nbsp;Twitter: <a href="https://twitter.com/metrak1bear">@metrak1bear</a></span> <br><span class="red">&nbsp;Email: &nbsp;&nbsp;<a href="artem.karaptyan95@gmail.com">artem.karapetyan95@aol.com</a></span> <br><span class="orange">&nbsp;Resume:  <a href="Artem_Karapetyan_RESUME.pdf">Resume</a></span> <br>',
 			'bio': 'About Artem:<br><br>I\'m a Pace University Student with limitless urn for anything Engineering, Science, and Computers.  I love working in proper teams with a goal in mind weather it be me and some colleague working on class work or me and friend working on a app. I like would call myself an achiever cause I hate the sound of overachiever, makes me feel horrible agriagent.  I am always looking at ways ton learn more and gain more from things I do.',
 			'about': openLink('http://about.me/artemkarapetyan/', 'Opening about page in new tab/window...'),
 		}
