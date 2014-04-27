@@ -20,6 +20,7 @@ a:-webkit-any-link {
   font-family: 'Open Sans';
 }
 
+
 #headr {
   color: transparent;
   font-size: 100px;
@@ -32,6 +33,9 @@ a:-webkit-any-link {
   display: block;
 
   font-family: 'Open Sans';
+
+  
+  text-shadow: 0 0px 10px rgba(255, 255, 255, 1.0);
 }
 
 #rapper {
