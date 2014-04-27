@@ -32,9 +32,6 @@ a:-webkit-any-link {
   display: block;
 
   font-family: 'Open Sans';
-
-  
-  text-shadow: 0 0px 10px rgba(255, 255, 255, 1.0);
 }
 
 #rapper {
@@ -70,6 +67,10 @@ a:-webkit-any-link {
   color: red;
 }
 
+.orange{
+  color: #EB9100;
+}
+
 .consoleLine {
   overflow: hidden;
   width: 100%;
@@ -78,7 +79,7 @@ a:-webkit-any-link {
 }
 
 body {
-	background-color: black;
+  background-color: black;
   margin: 0px;
   overflow: hidden;
 }
