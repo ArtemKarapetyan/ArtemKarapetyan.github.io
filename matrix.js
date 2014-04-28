@@ -51,7 +51,7 @@ function initConsole() {
 		commands = {
 			'help': 'Welcome to the console.  Available commands: <br>&nbsp;<span class="blue">about</span>: open my about page <br>&nbsp;<span class="blue">bio</span>: give short bio of Artem <br>&nbsp;<span class="blue">help</span>: commands <br>&nbsp;<span class="blue">contact</span>: get contact info<br>&nbsp;<span class="blue">',
 			'contact': '<span class="blue">&nbsp;Twitter: <a href="https://twitter.com/metrak1bear">@metrak1bear</a></span> <br><span class="red">&nbsp;Email: &nbsp;&nbsp;<a href="mailto:artem.karaptyan95@gmail.com">Gmail</a></span> <br><span class="orange">&nbsp;Resume: &nbsp;<a href="Artem_Karapetyan_RESUME.pdf"&nbsp;>Resume</a></span> <br>',
-			'bio': 'About Artem:<br><br>I am a Pace University student with limitless desire for anything Engineering, Science, and Computers. I love working in proper teams with a goal in mind whether it be colleagues and I working in class or a friend and I simply working on an app. I am always looking for ways to learn and gain more experience from the projects and other opportunities I work on',
+			'bio': 'About Artem:<br><br>I am a Pace University student with limitless desire for anything Engineering, Science, and Computers. I love working in proper teams with a goal in mind whether it be me and my colleagues working in class or a me and my friend simply working on an app. I am always looking for ways to learn and gain more experience from the projects and other opportunities I work on',
 			'about': openLink('http://about.me/artemkarapetyan/', 'Opening about page in new tab/window...'),
 		}
 
