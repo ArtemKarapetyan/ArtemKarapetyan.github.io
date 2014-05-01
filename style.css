@@ -63,16 +63,32 @@ a:-webkit-any-link {
   overflow-y: scroll;
 }
 
+.yellow{
+color: #b58900;
+}
+
+
+.violet{
+color: #6c71c4;
+}
+
+.magenta{
+color: #d33682;
+}
+
+.cyan {
+color: #2aa198;
+}
 .blue {
   color: #55acee;
 }
 
 .red {
-  color: red;
+  color: #dc322f;
 }
 
 .orange{
-  color: #EB9100;
+  color: #cb4b16;
 }
 
 .consoleLine {
