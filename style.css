@@ -2,6 +2,10 @@ a:-webkit-any-link {
   color: inherit;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 #overlay {
 	z-index: -100;
 	position: absolute;
